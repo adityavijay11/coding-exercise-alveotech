@@ -1,0 +1,32 @@
+.ui.container.logsContainer{
+    display: flex;
+    flex-direction: row;
+    .logsTable{
+       height: 300px;
+       overflow-y: auto; 
+    }
+    .ui.table.stats{
+      width: 100px;
+      margin-top: 0;
+      margin-right: 10px;
+    }
+
+    .INFO{
+      color: blue;
+    }
+
+    .Warning{
+      color: orange;
+    }
+
+    .Error{
+      color: red;
+    }    
+    @media only screen and (max-width: 767px){
+      flex-direction: column;
+      .ui.table.stats{
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+}
