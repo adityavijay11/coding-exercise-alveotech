@@ -1,0 +1,37 @@
+[
+    {
+        "datetime": "2020-09-20 16:23:10,994",
+        "severity": "INFO",
+        "message": "Some info message"
+    },
+    {
+        "datetime": "2020-09-20 16:24:10,994",
+        "severity": "Warning",
+        "message": "Some warning message"
+    },
+    {
+        "datetime": "2020-09-20 16:25:10,994",
+        "severity": "Error",
+        "message": "Some error message"
+    },
+    {
+        "datetime": "2021-05-01 16:26:10,994",
+        "severity": "INFO",
+        "message": "Some info message 2"
+    },
+    {
+        "datetime": "2021-05-04 15:23:10,994",
+        "severity": "Error",
+        "message": "Some error message 2"
+    },
+    {
+        "datetime": "2021-05-04 16:27:10,994",
+        "severity": "Error",
+        "message": "Some error message 3"
+    },
+    {
+        "datetime": "2021-6-1 16:24:10,994",
+        "severity": "Warning",
+        "message": "Some warning message"
+    }
+]
