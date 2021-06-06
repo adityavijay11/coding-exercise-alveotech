@@ -1,3 +1,7 @@
+### Please note I have built quickly server logs view from create-react-app at this time. I have not covered much test coverage at this time due to having limited time over weekend but can do with pair programming if further required. In case for any query please kindly let me know. Hope you will like my effort. I appreciate your time, thank you very much.
+
+To run the project please follow following steps-
+
 In the project directory, 
 
 ### first do `npm i`
