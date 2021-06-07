@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { logType } from 'types/logs';
 import { Table } from 'semantic-ui-react';
 const ShowLog: React.FC<logType> = ({ datetime, severity, message }) =>
@@ -8,4 +8,4 @@ const ShowLog: React.FC<logType> = ({ datetime, severity, message }) =>
     <Table.Cell>{message}</Table.Cell>
   </Table.Row>
 
-export default ShowLog;
+export default memo(ShowLog);
