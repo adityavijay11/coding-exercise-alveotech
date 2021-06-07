@@ -10,10 +10,17 @@ const Logs = () => {
   const [logs, setLogs] = useState<logType[]>([])
 
   useEffect(() => {
-    (async () => {
-      const logs = await fetchLogs();
+    const callAPI = async (callIndex: number) => {
+      const logs = await fetchLogs(callIndex);
       setLogs(logs);
-    })();
+    };
+    let i = 1;
+    callAPI(i);
+    const id = setInterval(() => {
+      callAPI(++i);
+    }, 1000);
+    return () =>
+      clearInterval(id);
   }, []);
 
   const info = logs.filter(({ severity }) => severity === severityType.info);
